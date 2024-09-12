@@ -1,9 +1,10 @@
-import React from 'react'
-import NavBar from './sections/NavBar'
+import Navbar from "./sections/Navbar.jsx"
 
 const App = () => {
   return (
-    <NavBar />
+    <main className="max-w-7xl mx-auto">
+      <Navbar /> 
+    </main>
   )
 }
 
