@@ -25,7 +25,7 @@ export const navLinks = [
     {
       id: 1,
       name: 'Akarsh Bajpai',
-      position: 'Fullstack Developer at Code Guru',
+      position: 'Fullstack Developer at Site Guru',
       img: 'assets/review1.png',
       review:
         'Working with Arush was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
@@ -40,8 +40,8 @@ export const navLinks = [
     },
     {
       id: 3,
-      name: 'Vikas Verma',
-      position: 'Under Grad',
+      name: 'Varun Nigam',
+      position: 'Software Engineer at Amazon',
       img: 'assets/review3.png',
       review:
         'I can’t say enough good things about Arush. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
@@ -59,22 +59,22 @@ export const navLinks = [
   export const myProjects = [
     {
       title: 'Uber Clone',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      desc: 'The Ryde or Uber-clone is a React Native-based mobile application that mimics the core functionalities of ride-hailing services like Uber. The project focuses on building a robust and user-friendly platform that allows users to book rides, view ride details, and make payments seamlessly. The application integrates multiple technologies and services such as Clerk for authentication, Google Maps APIs for location and routing, Stripe for payment processing, NeonDB for database management, and TailwindCSS for styling.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        'Built as a Uber like mobile app with React-Native, expo, neondb, stripe, google-map-api, and Tailwind CSS, TypeScript,  Ryde or Uber-clone is designed to mimic the core functionalities of ride-hailing services like Uber.',
+      href: 'https://github.com/arushsingh03/uber-clone',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
+        backgroundColor: '#000000',
+        border: '0.01px solid #ffffff',
+        boxShadow: '0px 0px 60px 0px #827f21',
       },
       spotlight: '/assets/spotlight1.png',
       tags: [
         {
           id: 1,
-          name: 'React.js',
+          name: 'React-Native.js',
           path: '/assets/react.svg',
         },
         {
@@ -89,8 +89,8 @@ export const navLinks = [
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Google Map',
+          path: '/assets/google-maps.gif',
         },
       ],
     },
@@ -99,7 +99,7 @@ export const navLinks = [
       desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
       subdesc:
         'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      href: 'https://github.com/arushsingh03/Live-Docs',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo2.png',
       logoStyle: {
@@ -133,16 +133,16 @@ export const navLinks = [
     },
     {
       title: 'Duolingo Clone',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      desc: 'Lingo is an open-source initiative inspired by the popular language-learning platform, Duolingo, aimed at replicating its core functionalities to offer a fun, engaging, and interactive experience for users interested in learning new languages. This project seeks to create a comprehensive language-learning environment by integrating features such as interactive lessons that cover reading, writing, speaking, and listening skills, all designed to keep users motivated through gamification elements like points, streaks, badges, and leaderboards. The platform user-friendly interface and responsive design ensure accessibility across various devices, this clone not only serves as an educational tool but also as a practical project for developers to explore and contribute to the open-source community, enhancing the platform features and expanding its language offerings over time.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        'Lingo or Duolingo Clone built using TypeScript, React, Node.js, NeonDB (PostgreSQL), Clerk for authentication, and Tailwind CSS. This fullstack project emulates core functionalities of Duolingo, offering a sleek and responsive user interface with secure authentication and database management',
+      href: 'https://github.com/arushsingh03/Duolingo-Clone',
       texture: '/textures/project/project3.mp4',
-      logo: '/assets/project-logo3.png',
+      logo: '/assets/project-logo3.svg',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
-          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+          'linear-gradient(0deg, ##181a18, ##181a18), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
         border: '0.2px solid rgba(208, 213, 221, 1)',
         boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
       },
@@ -165,19 +165,19 @@ export const navLinks = [
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Node.Js',
+          path: '/assets/nodejs.png',
         },
       ],
     },
     {
       title: 'Educare',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+      desc: 'Educare is a next and react-based web app that is used as a Companies Profile for their consumer and partners. It uses modern UI based on ShadCN components and tailwind CSS. It uses Visme Form, and PostgreSQL as a database.',
       subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+        'Built with Node.js Educare Services is a company portfolio website which uses JavaScript, React, and Tailwind CSS. It features a modern, responsive design with integrated Visme forms for seamless data collection and interaction, showcasing company services and information efficiently.',
+      href: 'https://github.com/arushsingh03/Educare-Services',
       texture: '/textures/project/project4.mp4',
-      logo: '/assets/project-logo4.png',
+      logo: '/assets/project-logo4.jpg',
       logoStyle: {
         backgroundColor: '#0E1F38',
         border: '0.2px solid #0E2D58',
@@ -192,27 +192,27 @@ export const navLinks = [
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'JavaScript',
+          path: '/assets/js.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
+          name: 'Node.js',
+          path: '/assets/nodejs.png',
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
         },
       ],
     },
     {
       title: 'Swapi',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+      desc: 'This full-stack web application, built with React and Next.js, offers an immersive experience for Star Wars enthusiasts. Users can browse a comprehensive list of characters from the Star Wars universe, leveraging data from the Star Wars API (SWAPI). The application showcases modern web development practices, including server-side rendering, API integration, and local storage utilization. It provides an engaging platform for fans to explore and interact with Star Wars character data in a visually appealing and user-friendly environment.',
       subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+        'Built with React and NextJs webapp wich fetches data from Star Wars API (SWAPI) and displays them.',
+      href: 'https://github.com/arushsingh03/swapi-app',
       texture: '/textures/project/project5.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
@@ -234,13 +234,8 @@ export const navLinks = [
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'JavaScript',
+          path: '/assets/js.png',
         },
       ],
     },
