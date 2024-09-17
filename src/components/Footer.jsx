@@ -52,6 +52,18 @@ const Footer = () => {
             className="w-1/2 h-1/2"
           />
         </a>
+        <a
+          href="https://www.reddit.com/user/Potential_Comb_2972/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-icon"
+        >
+          <img
+            src="/assets/reddit.png"
+            alt="reddit"
+            className="w-1/2 h-1/2"
+          />
+        </a>
       </div>
 
       <p className="text-white-500">© 2024 Arush Singh. All rights reserved.</p>

@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Globe from "react-globe.gl";
 
 import Button from "../components/Button.jsx";
 
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
+  const [rotation, setRotation] = useState({ lat: 0, lng: 0 });
 
   const handleCopy = () => {
     navigator.clipboard.writeText("arushsingh1803@gmail.com");
@@ -14,6 +15,19 @@ const About = () => {
       setHasCopied(false);
     }, 2000);
   };
+
+  useEffect(() => {
+    const rotateGlobe = () => {
+      setRotation((prevRotation) => ({
+        lat: prevRotation.lat,
+        lng: prevRotation.lng + 0.2, // Adjust this value to change the speed of spinning
+      }));
+    };
+
+    const intervalId = setInterval(rotateGlobe, 100); // Adjust this interval for smoother or faster animation
+
+    return () => clearInterval(intervalId); // Cleanup on component unmount
+  }, []);
 
   return (
     <section className="c-space my-20" id="about">
@@ -29,7 +43,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Arush Singh</p>
               <p className="grid-subtext">
-                With 1 years of experience, I have honed my skills in both
+                With 1 year of experience, I have honed my skills in both
                 frontend and backend dev, creating dynamic and responsive
                 websites.
               </p>
@@ -44,12 +58,16 @@ const About = () => {
               alt="grid-2"
               className="w-full sm:h-[276px] h-fit object-contain"
             />
-
+            <img
+              src="/assets/student.gif"
+              alt="student"
+              className="absolute h-11 w-11 ml-[142px] mt-[116px] rounded-full"
+            />
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
                 I specialize in a variety of languages, frameworks, and tools
-                that allow me to build robust and scalable applications
+                that allow me to build robust and scalable applications.
               </p>
             </div>
           </div>
@@ -76,6 +94,7 @@ const About = () => {
                     size: 40,
                   },
                 ]}
+                rotation={[rotation.lat, rotation.lng]} // Apply rotation here
               />
             </div>
             <div>
@@ -104,7 +123,7 @@ const About = () => {
               <p className="grid-subtext">
                 I love solving problems and building things through code.
                 Programming isn&apos;t just my profession—it&apos;s my passion.
-                I enjoy exploring new technologies, and enhancing my skills.
+                I enjoy exploring new technologies and enhancing my skills.
               </p>
             </div>
           </div>
