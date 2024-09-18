@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Globe from "react-globe.gl";
 
 import Button from "../components/Button.jsx";
@@ -6,6 +6,7 @@ import Button from "../components/Button.jsx";
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
   const [rotation, setRotation] = useState({ lat: 0, lng: 0 });
+  const globeRef = useRef();
 
   const handleCopy = () => {
     navigator.clipboard.writeText("arushsingh1803@gmail.com");
@@ -20,13 +21,20 @@ const About = () => {
     const rotateGlobe = () => {
       setRotation((prevRotation) => ({
         lat: prevRotation.lat,
-        lng: prevRotation.lng + 0.2, // Adjust this value to change the speed of spinning
+        lng: prevRotation.lng + 0.02, // Adjust this value to change the speed of spinning
       }));
     };
 
     const intervalId = setInterval(rotateGlobe, 100); // Adjust this interval for smoother or faster animation
 
     return () => clearInterval(intervalId); // Cleanup on component unmount
+  }, []);
+
+  useEffect(() => {
+    if (globeRef.current) {
+      globeRef.current.controls().autoRotate = true;
+      globeRef.current.controls().autoRotateSpeed = 0.5;
+    }
   }, []);
 
   return (
@@ -41,7 +49,7 @@ const About = () => {
             />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Arush Singh</p>
+              <p className="grid-headtext">Hi, I'm Arush Singh</p>
               <p className="grid-subtext">
                 With 1 year of experience, I have honed my skills in both
                 frontend and backend dev, creating dynamic and responsive
@@ -77,6 +85,7 @@ const About = () => {
           <div className="grid-container">
             <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
               <Globe
+                ref={globeRef}
                 height={326}
                 width={326}
                 backgroundColor="rgba(0, 0, 0, 0)"
@@ -99,7 +108,7 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">
-                I’m very flexible with time zone communications & locations
+                I'm very flexible with time zone communications & locations
               </p>
               <p className="grid-subtext">
                 I&apos;m based in Kanpur, India and open to remote work
