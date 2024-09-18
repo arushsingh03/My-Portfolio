@@ -66,11 +66,6 @@ const About = () => {
               alt="grid-2"
               className="w-full sm:h-[276px] h-fit object-contain"
             />
-            <img
-              src="/assets/student.gif"
-              alt="student"
-              className="absolute h-11 w-11 ml-[142px] mt-[116px] rounded-full"
-            />
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
