@@ -1,5 +1,5 @@
 <div align="center">
-      <h1> <img src="https://cdn-icons-png.flaticon.com/128/1197/1197460.png" width="80px"><br/>My Portfolio</h1>
+      <h1> <img src="https://cdn-icons-gif.flaticon.com/15591/15591404.gif" width="100px"><br/>My Portfolio</h1>
      </div>
 <p align="center"> <a href="https://arush-portfolio.vercel.app/" target="_blank"><img alt="" src="https://img.shields.io/badge/Website-EA4C89?style=normal&logo=dribbble&logoColor=white" style="vertical-align:center" /></a> <a href="https://x.com/arush_singh03" target="_blank"><img alt="" src="https://img.shields.io/badge/Twitter-1DA1F2?style=normal&logo=twitter&logoColor=white" style="vertical-align:center" /></a> <a href="https://www.instagram.com/arushsingh03/" target="_blank"><img alt="" src="https://img.shields.io/badge/Instagram-E4405F?style=normal&logo=instagram&logoColor=white" style="vertical-align:center" /></a> <a href="https://www.linkedin.com/in/arushsingh03/}" target="_blank"><img alt="" src="https://img.shields.io/badge/LinkedIn-0077B5?style=normal&logo=linkedin&logoColor=white" style="vertical-align:center" /></a> </p>
 
