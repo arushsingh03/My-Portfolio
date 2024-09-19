@@ -48,8 +48,8 @@ export const navLinks = [
     },
     {
       id: 4,
-      name: 'Nikhil Sachan',
-      position: 'CEO at CareerKick',
+      name: 'Gaurav',
+      position: 'Senior Consultant at CareerKick',
       img: 'assets/review4.png',
       review:
         'Arush was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
@@ -264,7 +264,7 @@ export const navLinks = [
     },
     {
       id: 2,
-      name: 'CareerKick',
+      name: 'S.T. Design',
       pos: 'UI/UX Designer',
       duration: '04/2023 - 11/2023',
       title: "In my role as a UI/UX Designer, I was responsible for designing and enhancing user-centered digital experiences across web and mobile platforms. Working closely with cross-functional teams, I transformed complex ideas into intuitive and engaging interfaces that aligned with user needs and business goals",

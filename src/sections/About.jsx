@@ -51,9 +51,12 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I'm Arush Singh</p>
               <p className="grid-subtext">
-                With 1 year of experience, I have honed my skills in both
-                frontend and backend dev, creating dynamic and responsive
-                websites.
+                With strong frontend and backend skills, I build dynamic,
+                responsive applications and create seamless UIs alongside robust
+                back-end systems for scalable, high-performance solutions. I’m
+                also enthusiastic about diving into new technologies and
+                adapting to any tech stack, ready to tackle new challenges with
+                enthusiasm.
               </p>
             </div>
           </div>
@@ -69,8 +72,13 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools
-                that allow me to build robust and scalable applications.
+                I'm a developer with expertise in front-end and back-end
+                technologies, proficient in JavaScript, TypeScript, Python, and
+                C++. I build robust applications using React, React Native, and
+                Three.js, with experience in Node.js, Express, and MongoDB.
+                Skilled in UI/UX design with Figma, I deliver engaging, scalable
+                solutions while staying committed to learning and process
+                optimization.
               </p>
             </div>
           </div>
@@ -106,8 +114,9 @@ const About = () => {
                 I'm very flexible with time zone communications & locations
               </p>
               <p className="grid-subtext">
-                I&apos;m based in Kanpur, India and open to remote work
-                worldwide.
+                I'm based in Kanpur, India, and open to remote work worldwide.
+                I'm also available for on-site opportunities, ready to work in
+                offices as needed.
               </p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
@@ -123,11 +132,19 @@ const About = () => {
             />
 
             <div>
-              <p className="grid-headtext">My Passion for Coding</p>
+              <p className="grid-headtext">
+                My excitement for creating with code
+              </p>
               <p className="grid-subtext">
                 I love solving problems and building things through code.
-                Programming isn&apos;t just my profession—it&apos;s my passion.
-                I enjoy exploring new technologies and enhancing my skills.
+                Programming isn't just my profession—it's my passion. I thrive
+                on exploring new technologies, whether it's mastering JavaScript
+                frameworks like React and Node.js, or diving into tools like
+                Three.js to bring creative ideas to life. I’m always looking for
+                the next challenge, whether it's optimizing a backend system or
+                designing a seamless user experience with Figma. Constantly
+                driven to improve, I embrace learning and push myself to deliver
+                high-performance, scalable solutions in every project I take on.
               </p>
             </div>
           </div>
