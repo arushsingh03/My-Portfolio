@@ -6,7 +6,11 @@ const NavItems = () => {
     <ul className="nav-ul">
       {navLinks.map(({ id, name, href }) => (
         <li key={id} className="nav-li">
-          <a href={href} className="nav-li_a" onClick={() => {}}>
+          <a
+            href={href}
+            className="nav-li_a font-extrabold"
+            onClick={() => {}}
+          >
             {name}
           </a>
         </li>
@@ -32,7 +36,7 @@ const Navbar = () => {
             <img
               src="assets/icon.png"
               alt="icon"
-              className="h-7 w-7 ml-2 rounded-full bg-white"
+              className="h-10 w-10 ml-2 rounded-full"
             />
           </a>
 
