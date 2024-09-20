@@ -275,7 +275,7 @@ export const navLinks = [
       id: 3,
       name: 'The Engineer Bro',
       pos: 'Web Developer & Editor',
-      duration: '2019 - 2020',
+      duration: '03/2022 - 07/2022',
       title: "Working at TEB was an enriching and rewarding experience that shaped my skills both as a web developer and an editor. The company’s forward-thinking culture, commitment to innovation, and collaborative environment provided me with numerous opportunities to grow professionally.",
       icon: '/assets/photo-editor.gif',
       animation: 'salute',
