@@ -258,7 +258,7 @@ export const navLinks = [
       name: 'Educare Services',
       pos: 'Web Developer',
       duration: '05/2024 - Present',
-      title: ": Designed a website and social media handles improving its digital presence by 40%.",
+      title: "Designed a website and social media handles improving its digital presence by 40%.",
       icon: '/assets/programmer.gif',
       animation: 'victory',
     },
